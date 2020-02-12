@@ -15,9 +15,9 @@ api = Api(app)
 
 
 def getConnection():
-    host = 'dnetdb4zafsrh.vodacom.corp:1521/NETDEV2'  # hostaddr:port
-    uname = 'name_repo'
-    pw = 'name_repo'
+    host = 'xxxxx/yyyy'  # hostaddr:port
+    uname = 'xxxx'
+    pw = 'ccc'
     constr=uname+'/'+pw+'@'+host
     connection = cx_Oracle.connect(constr,encoding = "UTF-8", nencoding = "UTF-8")
     return connection
